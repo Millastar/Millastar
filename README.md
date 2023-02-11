@@ -1,6 +1,6 @@
 
  <a href="#"> <img align="right" src="https://github-stats.ubrong.com/api?username=Millastar&show_icons=true&theme=tokyonight" /> </a>
-  🌸 **About Me**
+ 🌸 **About Me**
  
 - ❄️ programming language: js,c++,python
 - ❄️ Markup Language: html,css

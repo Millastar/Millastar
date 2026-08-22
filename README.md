@@ -5,7 +5,7 @@
 - ❄️ programming language: js,c++,python
 - ❄️ Markup Language: html,css
 - ❄️ E-mail: Mirastar@qq.com
-- ❄️ Blog: [Mirastar's Blog](https://mirastar.top)
+- ❄️ Blog: [Mirastar's Blog](https://blog.mirastar.top)
 - ❄️ luogu: [Mirastar](https://www.luogu.com.cn/user/88405)
 - ❄️ specialized subject:Big data management and application
 - ❄️ Education: Undergraduate

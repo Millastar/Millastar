@@ -6,7 +6,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-Millastar-181717?style=flat-square&logo=github)](https://github.com/Millastar)
 [![Email](https://img.shields.io/badge/Email-Mirastar%40qq.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:Mirastar@qq.com)
-[![Blog](https://img.shields.io/badge/Blog-mirastar.top-0A66C2?style=flat-square&logo=blogger&logoColor=white)](https://mirastar.top)
+[![Blog](https://img.shields.io/badge/Blog-mirastar.top-0A66C2?style=flat-square&logo=blogger&logoColor=white)](https://blog.mirastar.top)
 [![Luogu](https://img.shields.io/badge/Luogu-Mirastar-4B9AE8?style=flat-square&logo=codeforces&logoColor=white)](https://www.luogu.com.cn/user/88405)
 
 <img src="./assets/divider.svg" width="100%" alt="Animated color divider" />
@@ -26,7 +26,7 @@ I build practical AI applications around retrieval, agent orchestration, model s
 - 🔭 **当前方向**：AI 应用开发、RAG 系统、Multi-Agent 工作流
 - 🧠 **工程关注**：来源引用、重排序、权限隔离、Human-in-the-Loop、幂等与补偿
 - 🛠️ **工作方式**：先拆解真实场景，再设计数据流和状态流，最后用测试与评测验证
-- ✍️ **技术记录**：在 [Mirastar's Blog](https://mirastar.top) 分享项目实践与排错过程
+- ✍️ **技术记录**：在 [Mirastar's Blog](https://blog.mirastar.top) 分享项目实践与排错过程
 
 </td>
 <td width="46%" valign="middle">

@@ -107,20 +107,7 @@ Prototype → Tests     → Evaluation        → Deployment → Iteration
 
 如果你也在做 RAG、Agent 或 AI 应用工程化，欢迎通过 [Email](mailto:Mirastar@qq.com)、[Blog](https://mirastar.top) 或 GitHub 与我交流。
 
-## 仓库文件说明
 
-主页中的终端动画、彩色分隔线、Breakout 贡献动画、3D 贡献图和统计卡片都使用仓库内的本地 SVG。发布到 `Millastar/Millastar` 时，请保留以下目录和文件：
-
-```text
-README.md
-assets/
-images/
-profile-3d-contrib/
-profile-summary-card-output/
-.github/
-```
-
-上传后建议先在 GitHub 的 **Actions** 页面手动运行 `Generate 3D contribution graph`、`Generate contribution Breakout` 和 `Update recent activity`，这样 3D 贡献图和 Breakout 会立即替换为你的数据；之后这些视觉资源会按工作流定期刷新。
 
 <div align="center">
 

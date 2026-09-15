@@ -105,7 +105,7 @@ Prototype → Tests     → Evaluation        → Deployment → Iteration
 
 ## 联系我 / Contact
 
-如果你也在做 RAG、Agent 或 AI 应用工程化，欢迎通过 [Email](mailto:Mirastar@qq.com)、[Blog](https://mirastar.top) 或 GitHub 与我交流。
+欢迎通过 [Email](mailto:Mirastar@qq.com)或 GitHub 与我交流。
 
 
 

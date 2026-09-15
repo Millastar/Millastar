@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="180" viewBox="0 0 760 180" role="img">
+  <title>Millastar contribution overview</title>
+  <desc>Local profile statistics card for Millastar, refreshed by GitHub Actions.</desc>
+  <style>
+    .frame { fill: transparent; stroke: #d0d7de; }
+    .title { fill: #24292f; font: 700 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .label { fill: #57606a; font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .value { fill: #24292f; font: 700 21px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .item { opacity: 0; animation: rise .55s ease-out forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(7px); } to { opacity: 1; transform: translateY(0); } }
+    @media (prefers-color-scheme: dark) { .frame { stroke: #30363d; } .title, .value { fill: #f0f6fc; } .label { fill: #8b949e; } }
+    @media (prefers-reduced-motion: reduce) { .item { opacity: 1; animation: none; } }
+  </style>
+  <rect x="1" y="1" width="758" height="178" rx="8" class="frame"/>
+  <text x="28" y="32" class="title">Millastar · Profile Overview</text>
+  <g class="item" style="animation-delay:0ms"><text x="48" y="64" class="value">9</text><text x="48" y="83" class="label">Public repositories</text></g>
+  <g class="item" style="animation-delay:110ms"><text x="226" y="64" class="value">5</text><text x="226" y="83" class="label">Repository stars</text></g>
+  <g class="item" style="animation-delay:220ms"><text x="404" y="64" class="value">1</text><text x="404" y="83" class="label">Forks</text></g>
+  <g class="item" style="animation-delay:330ms"><text x="582" y="64" class="value">AI</text><text x="582" y="83" class="label">Application focus</text></g>
+  <line x1="30" y1="121" x2="730" y2="121" stroke="#d8dee4"/>
+  <text x="30" y="151" class="label">Contribution visuals are refreshed automatically by GitHub Actions.</text>
+</svg>

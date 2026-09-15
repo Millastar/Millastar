@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img">
+  <title>Mirastar animated AI application terminal</title>
+  <desc>An animated terminal summarizing Mirastar's interests in RAG, agent workflows, reliable AI applications, and full-stack delivery.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117" />
+      <stop offset="1" stop-color="#161b22" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3fb950" />
+      <stop offset="0.38" stop-color="#58a6ff" />
+      <stop offset="0.7" stop-color="#d29922" />
+      <stop offset="1" stop-color="#ff7b72" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <clipPath id="screen"><rect x="18" y="54" width="724" height="348" rx="0" /></clipPath>
+  </defs>
+  <style>
+    .text { font-family: "Cascadia Code", "Fira Code", Consolas, monospace; }
+    .scan { animation: scan 7s linear infinite; }
+    .cursor { animation: blink 1.05s steps(1) infinite; }
+    .orbit { transform-origin: 620px 218px; animation: spin 12s linear infinite; }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    .bar-a { transform-origin: 96px 155px; animation: grow-a 4s ease-in-out infinite; }
+    .bar-b { transform-origin: 96px 207px; animation: grow-b 4s .4s ease-in-out infinite; }
+    .bar-c { transform-origin: 96px 259px; animation: grow-c 4s .8s ease-in-out infinite; }
+    .bar-d { transform-origin: 96px 311px; animation: grow-d 4s 1.2s ease-in-out infinite; }
+    @keyframes scan { from { transform: translateY(-18px); } to { transform: translateY(360px); } }
+    @keyframes blink { 0%, 52% { opacity: 1; } 53%, 100% { opacity: 0; } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes pulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+    @keyframes grow-a { 0%, 15% { transform: scaleX(.18); } 45%, 100% { transform: scaleX(1); } }
+    @keyframes grow-b { 0%, 15% { transform: scaleX(.18); } 45%, 100% { transform: scaleX(.84); } }
+    @keyframes grow-c { 0%, 15% { transform: scaleX(.18); } 45%, 100% { transform: scaleX(.72); } }
+    @keyframes grow-d { 0%, 15% { transform: scaleX(.18); } 45%, 100% { transform: scaleX(.92); } }
+  </style>
+
+  <rect x="2" y="2" width="756" height="416" rx="18" fill="url(#panel)" stroke="#30363d" stroke-width="4" />
+  <path d="M20 53h720" stroke="#30363d" stroke-width="2" />
+  <circle cx="31" cy="28" r="7" fill="#ff7b72" />
+  <circle cx="54" cy="28" r="7" fill="#d29922" />
+  <circle cx="77" cy="28" r="7" fill="#3fb950" />
+  <text x="380" y="34" text-anchor="middle" class="text" font-size="15" fill="#8b949e">mirastar@github: ~/ai-lab</text>
+
+  <g clip-path="url(#screen)">
+    <rect class="scan" x="18" y="54" width="724" height="22" fill="#58a6ff" opacity=".05" />
+    <text x="46" y="95" class="text" font-size="19" fill="#7ee787">mirastar@github</text>
+    <text x="222" y="95" class="text" font-size="19" fill="#c9d1d9">:</text>
+    <text x="235" y="95" class="text" font-size="19" fill="#79c0ff">~</text>
+    <text x="249" y="95" class="text" font-size="19" fill="#c9d1d9">$ build --profile</text>
+
+    <text x="48" y="151" class="text" font-size="16" fill="#8b949e">[01]</text>
+    <text x="96" y="151" class="text" font-size="17" fill="#f0f6fc">RAG applications</text>
+    <rect x="96" y="163" width="300" height="5" rx="2.5" fill="#21262d" />
+    <rect class="bar-a" x="96" y="163" width="300" height="5" rx="2.5" fill="#3fb950" />
+    <text x="410" y="168" class="text" font-size="15" fill="#3fb950">ready</text>
+
+    <text x="48" y="203" class="text" font-size="16" fill="#8b949e">[02]</text>
+    <text x="96" y="203" class="text" font-size="17" fill="#f0f6fc">Agent workflows</text>
+    <rect x="96" y="215" width="300" height="5" rx="2.5" fill="#21262d" />
+    <rect class="bar-b" x="96" y="215" width="300" height="5" rx="2.5" fill="#58a6ff" />
+    <text x="410" y="220" class="text" font-size="15" fill="#58a6ff">building</text>
+
+    <text x="48" y="255" class="text" font-size="16" fill="#8b949e">[03]</text>
+    <text x="96" y="255" class="text" font-size="17" fill="#f0f6fc">Reliable systems</text>
+    <rect x="96" y="267" width="300" height="5" rx="2.5" fill="#21262d" />
+    <rect class="bar-c" x="96" y="267" width="300" height="5" rx="2.5" fill="#d29922" />
+    <text x="410" y="272" class="text pulse" font-size="15" fill="#d29922">exploring</text>
+
+    <text x="48" y="307" class="text" font-size="16" fill="#8b949e">[04]</text>
+    <text x="96" y="307" class="text" font-size="17" fill="#f0f6fc">Full-stack delivery</text>
+    <rect x="96" y="319" width="300" height="5" rx="2.5" fill="#21262d" />
+    <rect class="bar-d" x="96" y="319" width="300" height="5" rx="2.5" fill="#ff7b72" />
+    <text x="410" y="324" class="text" font-size="15" fill="#ff7b72">connected</text>
+
+    <g opacity=".92">
+      <circle cx="620" cy="218" r="100" fill="none" stroke="#30363d" stroke-width="2" stroke-dasharray="5 8" />
+      <circle cx="620" cy="218" r="60" fill="none" stroke="#30363d" stroke-width="2" />
+      <path d="M585 218l20-35h40l20 35-20 35h-40z" fill="#161b22" stroke="url(#accent)" stroke-width="3" />
+      <text x="620" y="213" text-anchor="middle" class="text" font-size="15" fill="#f0f6fc">IDEA</text>
+      <text x="620" y="235" text-anchor="middle" class="text" font-size="15" fill="#8b949e">→ TOOL</text>
+      <g class="orbit">
+        <circle cx="620" cy="118" r="8" fill="#58a6ff" filter="url(#glow)" />
+        <circle cx="620" cy="318" r="6" fill="#ff7b72" />
+      </g>
+    </g>
+
+    <text x="48" y="372" class="text" font-size="17" fill="#d2a8ff">ship</text>
+    <text x="90" y="372" class="text" font-size="17" fill="#c9d1d9">(idea) → reliable_tool</text>
+    <rect class="cursor" x="328" y="354" width="10" height="23" fill="#c9d1d9" />
+  </g>
+</svg>

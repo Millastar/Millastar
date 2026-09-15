@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="180" viewBox="0 0 360 180" role="img">
+  <title>Millastar technology focus</title>
+  <desc>Technology areas represented in Millastar's AI application projects.</desc>
+  <style>
+    .frame { fill: transparent; stroke: #d0d7de; }
+    .title { fill: #24292f; font: 700 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .label { fill: #57606a; font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .item { opacity: 0; animation: rise .55s ease-out forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(7px); } to { opacity: 1; transform: translateY(0); } }
+    @media (prefers-color-scheme: dark) { .frame { stroke: #30363d; } .title { fill: #f0f6fc; } .label { fill: #8b949e; } }
+    @media (prefers-reduced-motion: reduce) { .item { opacity: 1; animation: none; } }
+  </style>
+  <rect x="1" y="1" width="358" height="178" rx="8" class="frame"/>
+  <text x="22" y="32" class="title">AI Application Stack</text>
+  <g class="item" style="animation-delay:0ms"><text x="24" y="59" class="label">Python</text><rect x="128" y="48" width="172" height="8" rx="4" fill="#3572A5"/><text x="332" y="59" text-anchor="end" class="label">core</text></g>
+  <g class="item" style="animation-delay:120ms"><text x="24" y="83" class="label">LangGraph</text><rect x="128" y="72" width="172" height="8" rx="4" fill="#1C3C3C"/><text x="332" y="83" text-anchor="end" class="label">agents</text></g>
+  <g class="item" style="animation-delay:240ms"><text x="24" y="107" class="label">RAG</text><rect x="128" y="96" width="172" height="8" rx="4" fill="#8A2BE2"/><text x="332" y="107" text-anchor="end" class="label">retrieval</text></g>
+  <g class="item" style="animation-delay:360ms"><text x="24" y="131" class="label">FastAPI</text><rect x="128" y="120" width="172" height="8" rx="4" fill="#009688"/><text x="332" y="131" text-anchor="end" class="label">services</text></g>
+  <g class="item" style="animation-delay:480ms"><text x="24" y="155" class="label">PostgreSQL</text><rect x="128" y="144" width="172" height="8" rx="4" fill="#336791"/><text x="332" y="155" text-anchor="end" class="label">data</text></g>
+</svg>

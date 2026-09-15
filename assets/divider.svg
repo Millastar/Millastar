@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="4" viewBox="0 0 1200 4" role="img">
+  <title>Animated color divider</title>
+  <desc>A thin line with a restrained green, blue, amber, and coral shimmer.</desc>
+  <defs>
+    <linearGradient id="line" x1="-1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#3fb950" />
+      <stop offset="0.34" stop-color="#58a6ff" />
+      <stop offset="0.67" stop-color="#d29922" />
+      <stop offset="1" stop-color="#ff7b72" />
+      <animate attributeName="x1" values="-1;0;1" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0;1;2" dur="8s" repeatCount="indefinite" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="4" rx="2" fill="url(#line)" />
+</svg>
